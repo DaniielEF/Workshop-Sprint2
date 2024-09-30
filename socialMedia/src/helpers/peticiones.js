@@ -4,7 +4,7 @@ export const postData = async (url, obj)=> {
     try {
         const response = await axios.post(url, obj)
         console.log(response)
-        
+        return response.status
     } catch (error) {
         console.error('Error en la solicitud POST', error)
         

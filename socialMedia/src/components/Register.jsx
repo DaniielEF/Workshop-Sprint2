@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import { TextField, Button, Container, Typography, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
-import { PostData, GetData } from '../helpers/peticiones'; // Importamos PostData y GetData desde reducers
+import { TextField, Button, Container, Typography,} from '@mui/material';
+import { postData, getData } from '../helpers/peticiones'; // Importamos PostData y GetData desde reducers
 import { NavLink } from 'react-router-dom';
 
 const Register = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', password: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', password: '', photo: '' , friends: []});
   const [error, setError] = useState('');
 
   
@@ -20,7 +20,7 @@ const Register = () => {
 
     try {
       
-      const users = await GetData(url);
+      const users = await getData(url);
       const emailExists = users.some(user => user.email === formData.email);
 
       if (emailExists) {
@@ -29,10 +29,10 @@ const Register = () => {
       }
 
       
-      const status = await PostData(url, formData);
+      const status = await postData(url, formData);
       if (status === 201) {
         alert('Usuario registrado con éxito');
-        setFormData({ name: '', email: '', password: '', role: '' }); 
+        setFormData({ photo: '', name: '', email: '', password: '', role: '' }); 
         setError(''); 
       } else {
         alert('Error en el registro');
@@ -49,6 +49,14 @@ const Register = () => {
       </Typography>
       {error && <Typography color="error">{error}</Typography>} {/* Mostrar error si el correo ya existe */}
       <form onSubmit={handleSubmit}>
+      <TextField
+          label="Foto"
+          name="photo"
+          fullWidth
+          margin="normal"
+          value={formData.photo}
+          onChange={handleChange}
+        />
         <TextField
           label="Nombre"
           name="name"
@@ -75,19 +83,7 @@ const Register = () => {
           onChange={handleChange}
         />
 
-        {/* Select para elegir el rol */}
-        <FormControl fullWidth margin="normal">
-          <InputLabel>Rol</InputLabel>
-          <Select
-            name="role"
-            value={formData.role}
-            onChange={handleChange}
-          >
-            <MenuItem value="buyer">Buyer</MenuItem>
-            <MenuItem value="admin">Admin</MenuItem>
-          </Select>
-        </FormControl>
-
+    
         <Button type="submit" variant="contained" fullWidth style={{ marginTop: '20px' }}>
           Registrarse
         </Button>
