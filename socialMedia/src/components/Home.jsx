@@ -1,13 +1,12 @@
-import { Card } from '@mui/material'
+//eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 const Home = () => {
+    
   return (
     <div>
-        <h1>Profiles</h1>
-        <Card>
-            Content
-        </Card>
+        <h1>Home</h1>
+
     </div>
   )
 }

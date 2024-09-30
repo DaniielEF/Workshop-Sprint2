@@ -6,6 +6,8 @@ import SearchIcon from '@mui/icons-material/Search';
 import RestoreIcon from '@mui/icons-material/Restore';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import { Fab } from '@mui/material';
+import AddIcon from '@mui/icons-material/Add';
 
 
 const BottomNavigationBar = () => {
@@ -18,17 +20,21 @@ const BottomNavigationBar = () => {
     // Navegación por las rutas correspondientes
     switch (newValue) {
       case 0:
-        navigate('/home'); 
+        navigate('/home');
         break;
       case 1:
-        navigate('/post'); 
+        navigate('/search');
         break;
+      
       case 2:
-        navigate('/search'); 
+        navigate('/post');
         break;
       case 3:
-        navigate('/profile'); 
+        navigate('/notification');
         break;
+        case 4:
+          navigate('/profile');
+          break;
       default:
         break;
     }
@@ -41,10 +47,12 @@ const BottomNavigationBar = () => {
       showLabels
       sx={{ width: '100%', position: 'fixed', bottom: 0 }}
     >
-      <BottomNavigationAction  icon={<HomeOutlinedIcon />} />
-      <BottomNavigationAction  icon={<SearchIcon />} />
-      <BottomNavigationAction  icon={<RestoreIcon />} />
-      <BottomNavigationAction  icon={<PersonOutlineOutlinedIcon />} />
+      <BottomNavigationAction icon={<HomeOutlinedIcon />} />
+      <BottomNavigationAction icon={<SearchIcon />} />
+      <BottomNavigationAction icon={<Fab color="primary" aria-label="add"> <AddIcon /> </Fab>} />
+      
+      <BottomNavigationAction icon={<RestoreIcon />} />
+      <BottomNavigationAction icon={<PersonOutlineOutlinedIcon />} />
     </BottomNavigation>
   );
 }
