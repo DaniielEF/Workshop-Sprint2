@@ -21,10 +21,10 @@ const BottomNavigationBar = () => {
         navigate('/home'); 
         break;
       case 1:
-        navigate('/search'); 
+        navigate('/post'); 
         break;
       case 2:
-        navigate('/orderHistory'); 
+        navigate('/search'); 
         break;
       case 3:
         navigate('/profile'); 
