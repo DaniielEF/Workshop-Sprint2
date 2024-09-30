@@ -5,7 +5,7 @@
         "name": "John Doe",
         "photo": "https://example.com/photos/john_doe.jpg",
         "email": "john.doe@example.com",
-        "password": "password123",
+        "password": "123",
         "friends": [2, 3, 4]
       },
       {
