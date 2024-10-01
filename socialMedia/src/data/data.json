@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "John Doe",
-      "photo": "https://example.com/photos/john_doe.jpg",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/5/56/ESPN_FC_logo.jpg",
       "email": "john.doe@example.com",
       "password": "123",
       "friends": [
@@ -121,43 +121,19 @@
       ]
     },
     {
-      "id": "17c4",
-      "name": "Cristiano Ronaldo",
-      "email": "cr7@gmail.com",
+      "id": "101",
+      "name": "Emanuel",
+      "email": "emanuel@gmail.com",
       "password": "12345",
-      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/640px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg",
-      "friends": []
-    },
-    {
-      "id": "a7ad",
-      "name": "Lionel Messi",
-      "email": "leomessi@gmail.com",
-      "password": "12345",
-      "photo": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg",
-      "friends": []
-    },
-    {
-      "id": "94ca",
-      "name": "yo",
-      "email": "yo@gmail.com",
-      "password": "123",
-      "photo": "yo",
-      "friends": []
-    },
-    {
-      "id": "05c5",
-      "name": "yo",
-      "email": "yo2@gmail.com",
-      "password": "123",
-      "photo": "yo2",
+      "photo": "",
       "friends": []
     }
   ],
   "posts": [
     {
-      "idPost": 101,
+      "id": 101,
       "idUser": 1,
-      "image": "https://example.com/posts/john_post1.jpg",
+      "image": "https://media.glamour.es/photos/616f82ba61a372755b805b1c/master/pass/659126.jpeg",
       "description": "Great day at the beach!",
       "likes": 150,
       "comments": [
@@ -172,13 +148,12 @@
           "text": "Wish I was there!"
         }
       ],
-      "shared": 10,
-      "id": "33e0"
+      "shared": 10
     },
     {
-      "idPost": 102,
-      "idUser": 2,
-      "image": "https://example.com/posts/jane_post1.jpg",
+      "id": 102,
+      "idUser": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCjgVv-4Cl9Z-XQT3uCV_KKtjPzSNG-q2XA&s",
       "description": "Lovely sunset view.",
       "likes": 120,
       "comments": [
@@ -188,13 +163,12 @@
           "text": "Beautiful!"
         }
       ],
-      "shared": 8,
-      "id": "a39d"
+      "shared": 8
     },
     {
-      "idPost": 103,
-      "idUser": 3,
-      "image": "https://example.com/posts/carlos_post1.jpg",
+      "id": 103,
+      "idUser": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCjgVv-4Cl9Z-XQT3uCV_KKtjPzSNG-q2XA&s",
       "description": "Working on a new project!",
       "likes": 200,
       "comments": [
@@ -204,13 +178,12 @@
           "text": "Good luck!"
         }
       ],
-      "shared": 15,
-      "id": "6c15"
+      "shared": 15
     },
     {
-      "idPost": 104,
-      "idUser": 4,
-      "image": "https://example.com/posts/emily_post1.jpg",
+      "id": 104,
+      "idUser": 1,
+      "image": "https://play-lh.googleusercontent.com/LqweR2ETw35XXsz0YJO8e1gYMozGL-JRqtT1l3ITLS1ncyrWjq9TJmJFP3NCYa5klw",
       "description": "Enjoying coffee with friends.",
       "likes": 90,
       "comments": [
@@ -220,11 +193,10 @@
           "text": "Looks delicious!"
         }
       ],
-      "shared": 3,
-      "id": "f1a9"
+      "shared": 3
     },
     {
-      "idPost": 105,
+      "id": 105,
       "idUser": 5,
       "image": "https://example.com/posts/david_post1.jpg",
       "description": "Hiking the mountains.",
@@ -236,11 +208,10 @@
           "text": "Amazing view!"
         }
       ],
-      "shared": 7,
-      "id": "8e77"
+      "shared": 7
     },
     {
-      "idPost": 106,
+      "id": 106,
       "idUser": 6,
       "image": "https://example.com/posts/sophia_post1.jpg",
       "description": "New art project in progress.",
@@ -252,11 +223,10 @@
           "text": "Impressive work!"
         }
       ],
-      "shared": 12,
-      "id": "94be"
+      "shared": 12
     },
     {
-      "idPost": 107,
+      "id": 107,
       "idUser": 7,
       "image": "https://example.com/posts/michael_post1.jpg",
       "description": "Exploring the city.",
@@ -268,11 +238,10 @@
           "text": "Looks exciting!"
         }
       ],
-      "shared": 5,
-      "id": "c1b5"
+      "shared": 5
     },
     {
-      "idPost": 108,
+      "id": 108,
       "idUser": 8,
       "image": "https://example.com/posts/laura_post1.jpg",
       "description": "Best pizza in town!",
@@ -284,11 +253,10 @@
           "text": "I need to try it!"
         }
       ],
-      "shared": 9,
-      "id": "49fe"
+      "shared": 9
     },
     {
-      "idPost": 109,
+      "id": 109,
       "idUser": 9,
       "image": "https://example.com/posts/james_post1.jpg",
       "description": "Weekend road trip.",
@@ -300,11 +268,10 @@
           "text": "Drive safe!"
         }
       ],
-      "shared": 11,
-      "id": "8c44"
+      "shared": 11
     },
     {
-      "idPost": 110,
+      "id": 110,
       "idUser": 10,
       "image": "https://example.com/posts/olivia_post1.jpg",
       "description": "New book recommendation.",
@@ -316,12 +283,11 @@
           "text": "I'll check it out!"
         }
       ],
-      "shared": 13,
-      "id": "ed3a"
+      "shared": 13
     },
     {
-      "idPost": 111,
-      "idUser": 1,
+      "id": 111,
+      "idUser": 2,
       "image": "https://example.com/posts/john_post2.jpg",
       "description": "Had a great workout today.",
       "likes": 95,
@@ -332,11 +298,10 @@
           "text": "Keep it up!"
         }
       ],
-      "shared": 4,
-      "id": "25a6"
+      "shared": 4
     },
     {
-      "idPost": 112,
+      "id": 112,
       "idUser": 2,
       "image": "https://example.com/posts/jane_post2.jpg",
       "description": "New recipe experiment.",
@@ -348,11 +313,10 @@
           "text": "Looks delicious!"
         }
       ],
-      "shared": 6,
-      "id": "7476"
+      "shared": 6
     },
     {
-      "idPost": 113,
+      "id": 113,
       "idUser": 3,
       "image": "https://example.com/posts/carlos_post2.jpg",
       "description": "Caught an amazing sunset.",
@@ -364,11 +328,10 @@
           "text": "Breathtaking!"
         }
       ],
-      "shared": 10,
-      "id": "9c4d"
+      "shared": 10
     },
     {
-      "idPost": 114,
+      "id": 114,
       "idUser": 4,
       "image": "https://example.com/posts/emily_post2.jpg",
       "description": "Relaxing by the pool.",
@@ -380,11 +343,10 @@
           "text": "Enjoy!"
         }
       ],
-      "shared": 8,
-      "id": "6ea6"
+      "shared": 8
     },
     {
-      "idPost": 115,
+      "id": 115,
       "idUser": 5,
       "image": "https://example.com/posts/david_post2.jpg",
       "description": "New gadget review.",
@@ -396,11 +358,10 @@
           "text": "Interesting!"
         }
       ],
-      "shared": 9,
-      "id": "4cbc"
+      "shared": 9
     },
     {
-      "idPost": 116,
+      "id": 116,
       "idUser": 6,
       "image": "https://example.com/posts/sophia_post2.jpg",
       "description": "Back to the studio!",
@@ -412,11 +373,10 @@
           "text": "Can't wait to see more!"
         }
       ],
-      "shared": 14,
-      "id": "5d4a"
+      "shared": 14
     },
     {
-      "idPost": 117,
+      "id": 117,
       "idUser": 7,
       "image": "https://example.com/posts/michael_post2.jpg",
       "description": "Camping adventure.",
@@ -428,11 +388,10 @@
           "text": "That sounds fun!"
         }
       ],
-      "shared": 5,
-      "id": "ceb0"
+      "shared": 5
     },
     {
-      "idPost": 118,
+      "id": 118,
       "idUser": 8,
       "image": "https://example.com/posts/laura_post2.jpg",
       "description": "Trying a new hairstyle.",
@@ -444,11 +403,10 @@
           "text": "Looks great!"
         }
       ],
-      "shared": 6,
-      "id": "57a2"
+      "shared": 6
     },
     {
-      "idPost": 119,
+      "id": 119,
       "idUser": 9,
       "image": "https://example.com/posts/james_post2.jpg",
       "description": "Starting a new hobby.",
@@ -460,11 +418,10 @@
           "text": "Good luck!"
         }
       ],
-      "shared": 7,
-      "id": "d91b"
+      "shared": 7
     },
     {
-      "idPost": 120,
+      "id": 120,
       "idUser": 10,
       "image": "https://example.com/posts/olivia_post2.jpg",
       "description": "Learning a new language.",
@@ -476,8 +433,7 @@
           "text": "That's awesome!"
         }
       ],
-      "shared": 9,
-      "id": "a464"
+      "shared": 9
     }
   ]
 }
