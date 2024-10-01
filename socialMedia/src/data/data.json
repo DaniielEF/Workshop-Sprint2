@@ -6,8 +6,7 @@
       "photo": "https://upload.wikimedia.org/wikipedia/commons/5/56/ESPN_FC_logo.jpg",
       "email": "john.doe@example.com",
       "password": "123",
-      "friends": [
-        2,
+      "friends": [2,
         3,
         4
       ]
@@ -152,7 +151,7 @@
     },
     {
       "id": 102,
-      "idUser": 1,
+      "idUser": 2,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCjgVv-4Cl9Z-XQT3uCV_KKtjPzSNG-q2XA&s",
       "description": "Lovely sunset view.",
       "likes": 120,
@@ -167,7 +166,7 @@
     },
     {
       "id": 103,
-      "idUser": 1,
+      "idUser": 3,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCjgVv-4Cl9Z-XQT3uCV_KKtjPzSNG-q2XA&s",
       "description": "Working on a new project!",
       "likes": 200,

@@ -45,7 +45,7 @@ const BottomNavigationBar = () => {
       value={value}
       onChange={handleChange}
       showLabels
-      sx={{ width: '100%', position: 'fixed', bottom: 0, backgroundColor:'#FF7674' }}
+      sx={{ width: '100%', position: 'fixed', bottom: 0, backgroundColor:'#FF7674',zIndex:1 }}
     >
       <BottomNavigationAction icon={<HomeOutlinedIcon />} />
       <BottomNavigationAction icon={<SearchIcon />} />
