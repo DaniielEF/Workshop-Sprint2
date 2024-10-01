@@ -6,7 +6,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import RestoreIcon from '@mui/icons-material/Restore';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import { Fab } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 
 
@@ -45,11 +44,24 @@ const BottomNavigationBar = () => {
       value={value}
       onChange={handleChange}
       showLabels
-      sx={{ width: '100%', position: 'fixed', bottom: 0 }}
+      sx={{ width: '100%', position: 'fixed', bottom: 0, backgroundColor:'#FF7674' }}
     >
       <BottomNavigationAction icon={<HomeOutlinedIcon />} />
       <BottomNavigationAction icon={<SearchIcon />} />
-      <BottomNavigationAction icon={<Fab color="primary" aria-label="add"> <AddIcon /> </Fab>} />
+      <BottomNavigationAction icon={
+    <div
+      style={{
+        backgroundColor: '#FF7674', 
+        borderRadius: '50%', 
+        padding: '1.5rem', 
+        color: '#fff', 
+        boxShadow: '0px 3px 5px rgba(0,0,0,0.2)', 
+        marginBottom:'3rem'
+      }}
+    >
+      <AddIcon />
+    </div>
+  } />
       
       <BottomNavigationAction icon={<RestoreIcon />} />
       <BottomNavigationAction icon={<PersonOutlineOutlinedIcon />} />
