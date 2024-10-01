@@ -31,7 +31,7 @@ const Layout = () => (
         <Route path="search" element={<Search />} />
         <Route path="post" element={<Post />} />
         <Route path="notifications" element={<Notifications />} />
-        <Route path="profile" element={<Profile />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

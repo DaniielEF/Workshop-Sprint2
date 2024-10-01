@@ -13,6 +13,7 @@ const BottomNavigationBar = () => {
   const [value, setValue] = React.useState(0);
   const navigate = useNavigate();
 
+
   const handleChange = (event, newValue) => {
     setValue(newValue);
 
@@ -24,7 +25,7 @@ const BottomNavigationBar = () => {
       case 1:
         navigate('/search');
         break;
-      
+
       case 2:
         navigate('/post');
         break;
